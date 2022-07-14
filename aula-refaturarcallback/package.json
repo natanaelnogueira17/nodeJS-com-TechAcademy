@@ -1,0 +1,12 @@
+{
+  "name": "aula-npm-inicial",
+  "version": "1.0.0",
+  "description": "iniciando com nodeJS",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "author": "natanael nogueira",
+  "license": "MIT"
+}

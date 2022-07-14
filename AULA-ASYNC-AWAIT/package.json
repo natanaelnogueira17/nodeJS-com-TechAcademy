@@ -1,0 +1,12 @@
+{
+  "name": "aula-async-await",
+  "version": "1.0.0",
+  "description": "iniciando com nodeJS",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "author": "natanael nogueira",
+  "license": "ISC"
+}
