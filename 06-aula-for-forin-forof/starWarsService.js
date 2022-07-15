@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 
-const apiUrl = 'http swapi.dev/api/planets/1/'
+const apiUrl = 'http swapi.dev/api'
 
 async function getPeople(page =1){
   const response = await fetch (`${apiUrl}/people?page=${page}`)
