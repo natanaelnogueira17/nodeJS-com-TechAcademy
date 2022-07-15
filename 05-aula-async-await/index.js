@@ -1,10 +1,19 @@
-import fetach from 'node-fetch'
+import fetch from 'node-fetch';
 
-function main(){
+async function main(){
   console.log('main()')
   const user = 'natanaelnogueira17'
-  const apiURL = 'https://api.github.com'
-  fetch(``)
+  const apiUrl = 'https://api.github.com'
+
+ /* fetch(`${apiUrl}/users/${user}`)
+  .then((response)=>{
+    return response.json()
+  }).then((user)=>{
+    console.log(user)
+  })*/
+  const response = await fetch (`${apiUrl}/users/${user}`)
+  const githubUser = await response.json()
+  console.log(githubUser)
 }
 
 main()

@@ -1,12 +1,22 @@
 {
-  "name": "aula-async-await",
+  "name": "aula-npm-inicial",
   "version": "1.0.0",
-  "description": "iniciando com nodeJS",
-  "type": "module",
+  "description": "aula-async-await",
   "main": "index.js",
   "scripts": {
-    "dev": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "natanael nogueira",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natanaelnogueira17/nodeJS-com-TechAcademy.git"
+  },
+  "author": " Natanael Nogueira ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natanaelnogueira17/nodeJS-com-TechAcademy/issues"
+  },
+  "homepage": "https://github.com/natanaelnogueira17/nodeJS-com-TechAcademy#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.8"
+  }
 }
